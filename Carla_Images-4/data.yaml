@@ -1,0 +1,14 @@
+names:
+- Speed_30
+- Speed_60
+- Speed_90
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: carla_images
+  url: https://universe.roboflow.com/traffic-sign-lvyrj/carla_images/dataset/4
+  version: 4
+  workspace: traffic-sign-lvyrj
+test: ../test/images
+train: Carla_Images-4/train/images
+val: Carla_Images-4/valid/images
